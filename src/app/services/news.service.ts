@@ -26,10 +26,12 @@ export class NewsService {
     })
   }
 
-  getTopHeadlines(): Observable<Article[]>{
-    return this.executeQuery<NewsResponse>(`/top-headlines?category=business`)
-      .pipe( map( ({ articles }) => articles )
-      );
+  getTopHeadlines():Observable<Article[]> {
+    return this.getTopHeadlinesByCategory('business');
+    // return this.executeQuery<NewsResponse>(`/top-headlines?category=business`)
+    //   .pipe(
+    //     map( ({ articles }) => articles )
+    //   );
   }
 
   getTopHeadlinesByCategory( category: string, loadMore: boolean = false ):Observable<Article[]> {
