@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsService } from '../../services/news.service';
+import { Article, NewsResponse } from 'src/app/interfaces';
 
 @Component({
   selector: 'app-tab1',
@@ -8,12 +9,14 @@ import { NewsService } from '../../services/news.service';
 })
 export class Tab1Page implements OnInit {
 
-  constructor( private NewsService: NewsService) {}
+  public articles: Article[] = [];
 
-  ngOnInit(): void {
-    this.NewsService.getTpHeadlines().subscribe( resp => {
-      console.log(resp);
-    });
+  constructor( private newsService: NewsService) {}
+
+  ngOnInit() {
+    this.newsService.getTopHeadlines()
+      .subscribe( articles => this.articles.push( ...articles ) );
   }
+  
 
 }

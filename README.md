@@ -1,4 +1,9 @@
 # Api key
 https://newsapi.org
 
-Your API key is: 09af5bb44d5146da91af79d9cc238bd8
+# Quicktype
+Es una pagina para crear interfaz pasando como parametro una respuesta de una api
+https://quicktype.io
+
+# Encabezados
+Desde la api https://newsapi.org/docs/endpoints/top-headlines
