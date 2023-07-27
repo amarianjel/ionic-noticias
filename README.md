@@ -1,14 +1,34 @@
-# Api key
+<div align="center">
+
+# Proyecto [Aplicación de Noticias](https://www.djangoproject.com/) &middot; [<img src="https://i.postimg.cc/wT4x8tWS/codepenblanco.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://codepen.io/amarianjel/)   [<img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" class="footer-nav__link-image" height="30px" />](https://github.com/amarianjel)   [<img src="https://i.postimg.cc/1Xj3mL3G/github-Pages-blanco.png" alt="GitHub" class="footer-nav__link-image" height="70px" style="margin-bottom: -20px;"/>](https://amarianjel.github.io/Portfolio/)  [<img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://www.linkedin.com/in/amarianjel/)   [<img src="https://i.postimg.cc/1zqYRTyp/facebook.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://www.facebook.com/Abraham13071993/)   [<img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="Instagram" class="footer-nav__link-image" height="30px" />](https://www.instagram.com/abr_marianjel/)
+[![forthebadge](https://img.shields.io/badge/Made%20with-Ionic-blue.svg)](https://ionicframework.com/)
+![Quicktype](https://img.shields.io/badge/Quicktype-%E2%9A%99%EF%B8%8F-orange)
+[![forthebadge](https://img.shields.io/badge/Angular-%F0%9F%8C%8D-red.svg)](https://angular.io/)
+![Android](https://img.shields.io/badge/Android-%F0%9F%93%B1-brightgreen)
+![InAppBrowser](https://img.shields.io/badge/InAppBrowser-%F0%9F%8C%8F%F0%9F%93%B6-yellow)
+![Capacitor](https://img.shields.io/badge/Capacitor-%F0%9F%94%8C-blueviolet)
+![Social Sharing Plugin](https://img.shields.io/badge/Social%20Sharing%20Plugin-%E2%86%95%EF%B8%8F%F0%9F%94%BD-lightgrey)
+
+
+</div>
+
+
+<p align="center">
+  <img src="https://assets.stickpng.com/images/62a7475d223343fbc2207cff.png" alt="Logo Ionic">
+</p>
+
+
+# 📑 Api key 📑
 https://newsapi.org
 
-# Quicktype
+## 📑 Quicktype 📑
 Es una pagina para crear interfaz pasando como parametro una respuesta de una api
 https://quicktype.io
 
-# Encabezados
+## Encabezados
 Desde la api https://newsapi.org/docs/endpoints/top-headlines
 
-# Crear aplicaciones con IOS, Android con angular
+# 🚩 Crear aplicaciones con IOS, Android con angular 🚩
 No funciona con ionic 7 iab
 ```
 ionic cordova plugin add cordova-plugin-inappbrowser
@@ -46,7 +66,7 @@ providers: [
 2- npm i --save @awesome-cordova-plugins/core
 ```
 
--4 Luego de todas las instalaciones levante el serve... Ya debería de funcionar....
+4- Luego de todas las instalaciones levante el serve... Ya debería de funcionar....
 
 ```ionic serve```
 
@@ -56,11 +76,11 @@ providers: [
 Nota: Muchos pluggins de cordova no se actualizaran a capacitor! y muchos de estos pluggins de cordova siguen funcionando y se les da soporte.... Está es la manera que encontré para utilizar pluggins de cordova con capacitor... En resumen es agregar las dos lineas del paso #3...
 
 
-# Correr en Android
+# 🛠 Correr en Android 🛠
 Luego de poner este comando se abrirá Android Studio y correrá la aplicación.
 ```ionic capacitor build android```
 
-# Social Share
+## 🚀 Social Share 🚀
 https://danielsogl.gitbook.io/awesome-cordova-plugins/social-sharing
 
 # Tecnologías Utilizadas
