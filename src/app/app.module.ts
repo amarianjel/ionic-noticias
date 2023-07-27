@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http'
 
 //+ Plugins
 import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
+import { SocialSharing } from '@awesome-cordova-plugins/social-sharing/ngx';
+import { IonicStorageModule } from '@ionic/storage-angular';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,10 +19,12 @@ import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule, 
-    HttpClientModule
+    HttpClientModule,
+    IonicStorageModule.forRoot()
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    InAppBrowser
+    InAppBrowser,
+    SocialSharing,
   ],
   bootstrap: [AppComponent],
 })

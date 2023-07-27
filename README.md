@@ -9,14 +9,13 @@ https://quicktype.io
 Desde la api https://newsapi.org/docs/endpoints/top-headlines
 
 # Crear aplicaciones con IOS, Android con angular
-No funciona con ionic 7
+No funciona con ionic 7 iab
 ```
 ionic cordova plugin add cordova-plugin-inappbrowser
 npm install @awesome-cordova-plugins/in-app-browser
 ```
 
 Para aquellos que tengan problemas instalando los pluggins de cordova en en proyecto con el motor de capacitor aquí la solución:
-
 
 
 1- Paren el proyecto e instalen lo mismo que el profesor
@@ -60,3 +59,6 @@ Nota: Muchos pluggins de cordova no se actualizaran a capacitor! y muchos de est
 # Correr en Android
 Luego de poner este comando se abrirá Android Studio y correrá la aplicación.
 ```ionic capacitor build android```
+
+# Social Share
+https://danielsogl.gitbook.io/awesome-cordova-plugins/social-sharing
