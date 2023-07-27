@@ -62,3 +62,16 @@ Luego de poner este comando se abrirá Android Studio y correrá la aplicación.
 
 # Social Share
 https://danielsogl.gitbook.io/awesome-cordova-plugins/social-sharing
+
+# Tecnologías Utilizadas
+
+| Tecnología               | Descripción                       | Icono                |
+|--------------------------|-----------------------------------|----------------------|
+| News API                 | API para obtener noticias         | :newspaper:          |
+| Quicktype                | Generación de interfaces          | :gear:               |
+| Angular                  | Framework para aplicaciones web   | :atom_symbol:        |
+| Ionic                    | Framework para aplicaciones móviles| :iphone:             |
+| InAppBrowser             | Plugin de Cordova para navegación | :globe_with_meridians:|
+| Capacitor                | Framework para apps híbridas      | :electric_plug:      |
+| Android Studio           | IDE para desarrollo de Android    | :computer:           |
+| Social Sharing Plugin    | Plugin de Cordova para compartir  | :arrow_up_down:      |
