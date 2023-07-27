@@ -74,13 +74,26 @@ export class ArticleComponent {
   onShareArticle(){
 
     const { title, source, url } = this.article;
+
+    if ( this.platform.is('cordova') ) {
+      this.socialSharing.share(
+        title,
+        source.name,
+        '',
+        url
+      );
+    }else{
+      if (navigator.share) {
+        navigator.share({
+          title: title,
+          text: this.article.description,
+          url: this.article.url,
+        })
+          .then(() => console.log('Successful share'))
+          .catch((error) => console.log('Error sharing', error));
+      }
+    }
     
-    this.socialSharing.share(
-      title,
-      source.name,
-      '',
-      url
-    );
   }
   
   onToggleFavorite(){
