@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { Article, ArticlesByCategoryAndPage, NewsResponse } from '../interfaces';
 import { Observable, map, of } from 'rxjs';
+import { storedArticlesByCategory } from '../data/mock-news';
 
 const apiKey = environment.apiKey;
 const apiUrl = environment.apiUrl;
@@ -12,7 +13,7 @@ const apiUrl = environment.apiUrl;
 })
 export class NewsService {
 
-  private articlesByCategoryAndPage: ArticlesByCategoryAndPage = {};
+  private articlesByCategoryAndPage: ArticlesByCategoryAndPage | any = storedArticlesByCategory;
 
   constructor( private http: HttpClient ) { }
 
