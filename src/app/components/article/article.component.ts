@@ -58,10 +58,9 @@ export class ArticleComponent {
       handler: () => this.onShareArticle()
     };
 
-    if ( this.platform.is('capacitor') ) {
+    if ( this.platform.is('android') ) {
       normalBtns.unshift(shareBtn);
     }
-
 
     const actionSheet = await this.actionSheetCtrl.create({
       header: 'Opciones',

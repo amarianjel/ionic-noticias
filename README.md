@@ -83,6 +83,11 @@ Luego de poner este comando se abrirá Android Studio y correrá la aplicación.
 ## 🚀 Social Share 🚀
 https://danielsogl.gitbook.io/awesome-cordova-plugins/social-sharing
 
+### Extras
+Cordova para share
+https://ionicframework.com/docs/developing/android
+```ionic cordova prepare android```
+
 # Tecnologías Utilizadas
 
 | Tecnología               | Descripción                       | Icono                |
