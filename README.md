@@ -12,11 +12,13 @@
 
 </div>
 
+<div align="center">
+  <p align="center">
+    <img src="https://i.postimg.cc/wMRkmnnQ/ionic.png" alt="Logo Ionic">
+  </p>
+</div>
 
-<p align="center">
-  <img src="https://assets.stickpng.com/images/62a7475d223343fbc2207cff.png" alt="Logo Ionic">
-</p>
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 # 📑 Api key 📑
 https://newsapi.org
@@ -28,6 +30,8 @@ https://quicktype.io
 ## Encabezados
 Desde la api https://newsapi.org/docs/endpoints/top-headlines
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 # 🚩 Crear aplicaciones con IOS, Android con angular 🚩
 No funciona con ionic 7 iab
 ```
@@ -38,7 +42,7 @@ npm install @awesome-cordova-plugins/in-app-browser
 Para aquellos que tengan problemas instalando los pluggins de cordova en en proyecto con el motor de capacitor aquí la solución:
 
 
-1- Paren el proyecto e instalen lo mismo que el profesor
+1. Paren el proyecto e instalen lo mismo que el profesor
 
 URL `https://ionicframework.com/docs/native/in-app-browser#installation`
 
@@ -48,7 +52,7 @@ URL `https://ionicframework.com/docs/native/in-app-browser#installation`
 3- ionic cap sync
 ```
 
-2- Agregen la importación igual que el profesor, tanto en el appmodule.ts como en articulo.ts
+2. Agregen la importación igual que el profesor, tanto en el appmodule.ts como en articulo.ts
 
 y no olviden agregar el provider en el appmodule
 ```
@@ -60,21 +64,22 @@ providers: [
 ],
 ```
 
-3-  Instalen las siguientes dos líneas
+3.  Instalen las siguientes dos líneas
 ```
 1- npm i @ionic-native/core
 2- npm i --save @awesome-cordova-plugins/core
 ```
 
-4- Luego de todas las instalaciones levante el serve... Ya debería de funcionar....
+4. Luego de todas las instalaciones levante el serve... Ya debería de funcionar....
 
 ```ionic serve```
 
 
-5- Si no funciona elimine los modulos, vuelva a crearlos: npm install y vuelva a levantar el serve una vez termine.
+5. Si no funciona elimine los modulos, vuelva a crearlos: npm install y vuelva a levantar el serve una vez termine.
 
 Nota: Muchos pluggins de cordova no se actualizaran a capacitor! y muchos de estos pluggins de cordova siguen funcionando y se les da soporte.... Está es la manera que encontré para utilizar pluggins de cordova con capacitor... En resumen es agregar las dos lineas del paso #3...
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 # 🛠 Correr en Android 🛠
 Luego de poner este comando se abrirá Android Studio y correrá la aplicación.
@@ -88,6 +93,8 @@ Cordova para share
 https://ionicframework.com/docs/developing/android
 ```ionic cordova prepare android```
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 # Tecnologías Utilizadas
 
 | Tecnología               | Descripción                       | Icono                |
@@ -100,6 +107,8 @@ https://ionicframework.com/docs/developing/android
 | Capacitor                | Framework para apps híbridas      | :electric_plug:      |
 | Android Studio           | IDE para desarrollo de Android    | :computer:           |
 | Social Sharing Plugin    | Plugin de Cordova para compartir  | :arrow_up_down:      |
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 # Sección 9 del desplegue
 
